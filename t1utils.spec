@@ -1,6 +1,6 @@
 Name:		t1utils
 Version:	1.37
-Release:	4%{?dist}
+Release:	6%{?dist}
 
 Summary:	Collection of Type 1 and 2 font manipulation utilities
 
@@ -45,6 +45,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.37-6
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.37-5
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.37-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
